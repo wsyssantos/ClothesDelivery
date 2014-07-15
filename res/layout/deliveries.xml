@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainView"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/very_light_gray"
+		android:orientation="horizontal" >
+
+		<ToggleButton
+			android:layout_width="0dp"
+			android:layout_height="28dp"
+			android:layout_weight="1"
+			android:background="@drawable/toggle_red_button"
+			android:textColor="@drawable/toggle_red_button"
+			android:textSize="12sp" 
+			android:textOn="A realizar"
+			android:textOff="A realizar"
+			/>
+
+		<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="@color/gray" />
+
+
+		<ToggleButton
+			android:layout_width="0dp"
+			android:layout_height="28dp"
+			android:layout_weight="1"
+			android:background="@drawable/toggle_red_button"
+			android:text="Selecionar"
+			android:textColor="@drawable/toggle_red_button"
+			android:textSize="12sp"
+			android:textOn="Realizadas"
+			android:textOff="Realizadas"
+			 />
+	</LinearLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/gray" />
+	
+	<ListView 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		>
+		
+	</ListView>
+
+</LinearLayout>
